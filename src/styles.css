@@ -16,6 +16,7 @@ body,
 body {
   background: #f0f0f0;
 }
+
 header {
   position: absolute;
   top: 0;
@@ -24,6 +25,7 @@ header {
   transform: translateX(-50%);
   display: flex;
 }
+
 footer {
   position: absolute;
   bottom: 40px;
@@ -52,9 +54,10 @@ button:hover {
   color: white;
   background-color: black;
 }
+
 .greeting {
   position: absolute;
-  top: 14%;
+  top: 22%;
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
@@ -74,12 +77,13 @@ button:hover {
   font-size: 1.4rem;
   margin-top: 0.5rem;
 }
+
 @media only screen and (max-width: 600px) {
   header {
     width: 50%;
   }
   .greeting {
-    top: 22%;
+    top: 32%;
   }
   .greeting__name {
     font-size: 1.8rem;
