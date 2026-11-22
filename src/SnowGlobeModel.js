@@ -179,7 +179,7 @@ function Texts() {
           fillOpacity={0.6}
           fontSize='0.1'
         >
-          Thanks for being the best girlfriend in the world
+          Thanks for being a supportive and loving partner. {'\n\n'}I love you so much.
         </Text>
         <Html transform center position={[0, 11.0, 0]} scale={0.1}>
           <div style={{ fontSize: '40px', color: 'white', userSelect: 'none', pointerEvents: 'none' }}>
