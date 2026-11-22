@@ -7,7 +7,7 @@ Title: Snowglobe - Day 11 #3DInktober2019-Snow
 */
 
 import { useFrame, useThree } from '@react-three/fiber'
-import { MeshTransmissionMaterial, useGLTF, useTexture, Text, Billboard, Text3D } from '@react-three/drei'
+import { MeshTransmissionMaterial, useGLTF, useTexture, Text, Billboard, Text3D, Html } from '@react-three/drei'
 import * as THREE from 'three'
 import { useMemo, useRef, useLayoutEffect, useState, useEffect, memo } from 'react'
 import { easing } from 'maath'
@@ -170,7 +170,7 @@ function Texts() {
           fontSize='0.35'
           lineHeight={0.85}
         >
-          Wishing you a restful holiday season. {'\n\n'}May your Christmas be blessed with lots of love, peace, and happiness.
+          Merry Christmas, Jenny. {'\n\n'}You make every day feel like Christmas.
         </Text>
         <Text
           maxWidth={2.5}
@@ -179,8 +179,13 @@ function Texts() {
           fillOpacity={0.6}
           fontSize='0.1'
         >
-          Thanks for being a supportive partner ❤️❤️❤️
+          Thanks for being the best girlfriend in the world
         </Text>
+        <Html transform center position={[0, 11.0, 0]} scale={0.1}>
+          <div style={{ fontSize: '40px', color: 'white', userSelect: 'none', pointerEvents: 'none' }}>
+            ❤️❤️❤️
+          </div>
+        </Html>
       </Billboard>
     </>
   )
