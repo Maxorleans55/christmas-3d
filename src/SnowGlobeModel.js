@@ -179,7 +179,7 @@ function Texts() {
           fillOpacity={0.6}
           fontSize='0.1'
         >
-          I will be on vacation until January 8th. Thank you for all your support in 2023. Great things are coming in 2024. Please stay tunned.
+          Thanks for being a supportive partner ❤️❤️❤️
         </Text>
       </Billboard>
     </>
